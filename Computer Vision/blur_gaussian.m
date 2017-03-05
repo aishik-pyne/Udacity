@@ -28,4 +28,4 @@ sigma=4;
  
  %filim=imfilter(img,h);
  %imshow(filim);
-}%
+%}
