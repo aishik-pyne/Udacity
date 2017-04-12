@@ -10,7 +10,8 @@ smooth=imfilter(img,h);
 imwrite(smooth,'output\ps1-4-a-1.png');%Saving smooth image
 
 
-%%Creating edge image
+%%Creating edge image}
+/**/
 img_edges_smooth=edge(smooth,'canny');
 imwrite(img_edges_smooth,'output\ps1-4-b-1.png');
 
